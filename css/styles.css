@@ -1,0 +1,20 @@
+.link-nav {
+    color: #212121;
+}
+
+.link-header-mail,
+.link-header-tel {
+    color: #757575;
+}
+
+.link-nav:hover {
+    color: #2196F3;;
+}
+
+.link-header-mail:hover {
+    color: #2196F3;
+}
+
+.link-header-tel:hover {
+    color: #2196F3;
+}
