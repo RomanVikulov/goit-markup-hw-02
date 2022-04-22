@@ -5,42 +5,129 @@
 /*акцент цвет #2196F3*/
 /* цвет футера и героя #2F303A */
 
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #757575;
+  --fon-color: #ffffff;
+  --back-fon-color: #f5f4fa;
+  --back-color: #2f303a;
+}
+
 body {
+  font-family: 'Roboto';
   background-color: #ffffff;
   color: #212121;
 }
-.logo {
-  color: #212121;
+
+ul {
+  list-style: none;
 }
 
-.header-logo {
+/* Шапка */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo {
   color: #2196f3;
+}
+
+.logo-web {
+  color: var(--primary-text-color);
 }
 
 .header-logo {
   color: black;
 }
 
+/* Шапка-навигация */
 .nav-link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .header-link-mail,
 .header-link-tel {
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-link-mail:hover,
 .header-link-mail:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-link-tel:hover,
 .header-link-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background: var(--back-color);
+}
+
+.hero-title {
+  color: var(--fon-color);
+}
+
+.hero-button {
+  color: var(--fon-color);
+  background-color: var(--accent-color);
+}
+
+/* Особенности */
+
+.section {
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  color: var(--secondary-color);
+}
+
+/* Деятельности */
+
+.about {
+  color: var(--primary-text-color);
+}
+
+/* Команда */
+
+.team {
+  background: var(--back-fon-color);
+  color: var(--primary-text-color);
+}
+
+.team-position {
+  color: var(--secondary-color);
+}
+
+/* Подвал */
+
+.footer {
+  background-color: var(--back-color);
+}
+
+.logo-studio {
+  color: var(--fon-color);
+}
+
+.footer-address {
+  color: var(--accent-color);
+}
+
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
