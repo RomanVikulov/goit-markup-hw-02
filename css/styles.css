@@ -1,20 +1,31 @@
+.header-logo {
+  color: #2196f3;
+}
+
+.header-logo {
+    color: black;
+}
+
 .link-nav {
-    color: #212121;
+  color: #212121;
 }
 
 .link-header-mail,
 .link-header-tel {
-    color: #757575;
+  color: #757575;
 }
 
-.link-nav:hover {
-    color: #2196F3;;
+.link-nav:hover,
+.link-nav:focus {
+  color: #2196f3;
 }
 
-.link-header-mail:hover {
-    color: #2196F3;
+.link-header-mail:hover,
+.link-header-mail:focus {
+  color: #2196f3;
 }
 
-.link-header-tel:hover {
-    color: #2196F3;
+.link-header-tel:hover,
+.link-header-tel:focus {
+  color: #2196f3;
 }
