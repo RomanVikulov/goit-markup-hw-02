@@ -1,31 +1,46 @@
-.header-logo {
-  color: #2196f3;
-}
+/* цвет основного текста #212121*/
+/*вторичный цвет текста #757575*/
+/* цвет фона первичный #FFFFFF */
+/* цвет фона вторичный #F5F4FA */
+/*акцент цвет #2196F3*/
+/* цвет футера и героя #2F303A */
 
-.header-logo {
-    color: black;
+body {
+  background-color: #ffffff;
+  color: #212121;
 }
-
-.link-nav {
+.logo {
   color: #212121;
 }
 
-.link-header-mail,
-.link-header-tel {
+.header-logo {
+  color: #2196f3;
+}
+
+.header-logo {
+  color: black;
+}
+
+.nav-link {
+  color: #212121;
+}
+
+.header-link-mail,
+.header-link-tel {
   color: #757575;
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #2196f3;
 }
 
-.link-header-mail:hover,
-.link-header-mail:focus {
+.header-link-mail:hover,
+.header-link-mail:focus {
   color: #2196f3;
 }
 
-.link-header-tel:hover,
-.link-header-tel:focus {
+.header-link-tel:hover,
+.header-link-tel:focus {
   color: #2196f3;
 }
