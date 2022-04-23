@@ -16,13 +16,18 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
   color: #212121;
 }
 
 ul {
   list-style: none;
 }
+
+button {
+  cursor: pointer;
+}
+
+/* Studio */
 
 /* Шапка */
 .logo {
@@ -48,7 +53,18 @@ ul {
 
 /* Шапка-навигация */
 .nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-link-mail,
@@ -80,7 +96,7 @@ ul {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -113,7 +129,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -121,7 +137,7 @@ ul {
 .feature-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
@@ -132,15 +148,34 @@ ul {
 
 /* Деятельности */
 
-.about {
+.about-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Команда */
 
-.team {
-  background: var(--back-fon-color);
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16;
+  line-height: 1.18;
 }
 
 .team-position {
@@ -165,3 +200,5 @@ ul {
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* Portfolio */
