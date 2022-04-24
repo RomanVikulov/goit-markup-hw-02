@@ -32,11 +32,11 @@ button {
 /* Шапка */
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo {
@@ -52,12 +52,14 @@ button {
 }
 
 /* Шапка-навигация */
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .header-item {
@@ -69,6 +71,11 @@ button {
 
 .header-link-mail,
 .header-link-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--secondary-color);
 }
 
@@ -104,13 +111,13 @@ button {
 }
 
 .hero-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   border: none;
   color: var(--fon-color);
   background-color: var(--accent-color);
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -126,7 +133,6 @@ button {
 }
 
 .feature-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -135,7 +141,6 @@ button {
 }
 
 .feature-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -174,11 +179,15 @@ button {
 
 .team-name {
   font-weight: 500;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.18;
 }
 
 .team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 
@@ -192,12 +201,26 @@ button {
   color: var(--fon-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .footer-address {
-  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fon-color);
+  text-decoration: none;
 }
 
 .footer-mail,
 .footer-tel {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -210,6 +233,7 @@ button {
 }
 
 .button-btn {
+  font-family: 'Roboto';
   border: none;
   font-weight: 500;
   font-size: 16px;
@@ -234,7 +258,6 @@ button {
 }
 
 .project-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
